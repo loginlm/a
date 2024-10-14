@@ -13,7 +13,7 @@ function doTips() {
     setInterval(() => {
         if (countDown === 0) {
             if (needTips) return
-            window.location.href="https://lmd-login.github.io/down/"
+            window.location.href="https://lmd-login.github.io/skipa/"
         } else {
             countDown--;
             node.innerText = `${countDown}s后跳转到下一页面`
